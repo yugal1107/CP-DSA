@@ -1,0 +1,30 @@
+# C/C++ build artifacts
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.bin
+*.class
+
+# Build output folders
+bin/
+build/
+
+# Default g++ output
+a.out
+
+# Debug symbols / macOS bundles
+*.dSYM/
+
+# C/C++ dependency files
+*.d
+
+# Ignore extensionless files (e.g., compiled binaries)
+*
+!*/
+!*.*
+!.gitignore
